@@ -27,7 +27,7 @@ export default function Home() {
         <Row justify="flex-end">
           <Button
             onClick={() => router.push("/cart")}
-            css={{ mb: '$8', "@xsMax": { w: "100%" } }}
+            css={{ mb: "$8", "@xsMax": { w: "100%" } }}
           >
             Go To Cart ({cart.length})
           </Button>

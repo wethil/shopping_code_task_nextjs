@@ -186,7 +186,6 @@ export default function CardOnCart({
   );
 }
 
-
 CardOnCart.propTypes = {
   id: PropTypes.string.isRequired,
   product_name: PropTypes.string.isRequired,
@@ -195,5 +194,5 @@ CardOnCart.propTypes = {
   onRemoveFromCart: PropTypes.func.isRequired,
   onChangeAmount: PropTypes.func.isRequired,
   reservedAmount: PropTypes.number.isRequired,
-  imageSrc: PropTypes.isRequired
-}
+  imageSrc: PropTypes.isRequired,
+};

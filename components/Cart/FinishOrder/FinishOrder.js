@@ -6,8 +6,6 @@ const validateEmail = (value) => {
   return /^\w+([\\.-]?\w+)*@\w+([\\.-]?\w+)*(\.\w{2,3})+$/.test(value);
 };
 export default function CustomerInfo({ onOrderConfirm }) {
-
-
   const { value, reset, bindings } = useInput("");
 
   const helper = React.useMemo(() => {
@@ -52,10 +50,9 @@ export default function CustomerInfo({ onOrderConfirm }) {
       >
         Confirm Order
       </Button>
-
     </Grid>
   );
 }
 CustomerInfo.propTypes = {
   onOrderConfirm: PropTypes.func.isRequired,
-}
+};

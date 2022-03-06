@@ -79,7 +79,7 @@ export default function Cart() {
       <Row justify="flex-end">
         <Button
           onClick={() => router.push("/")}
-          css={{ mb: '$8', "@xsMax": { w: "100%" } }}
+          css={{ mb: "$8", "@xsMax": { w: "100%" } }}
         >
           Go Back
         </Button>
@@ -139,9 +139,7 @@ export default function Cart() {
         </Row>
       ) : (
         <Row>
-          <Text>
-            You don&apos;t have any reserved products at the moment{" "}
-          </Text>
+          <Text>You don&apos;t have any reserved products at the moment </Text>
         </Row>
       )}
       <Modal

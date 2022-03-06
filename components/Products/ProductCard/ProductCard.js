@@ -188,8 +188,6 @@ export default function ProductCard({
   );
 }
 
-
-
 ProductCard.propTypes = {
   id: PropTypes.string.isRequired,
   product_name: PropTypes.string.isRequired,
@@ -197,5 +195,5 @@ ProductCard.propTypes = {
   stock: PropTypes.number.isRequired,
   onAddToCart: PropTypes.func.isRequired,
   reservedAmount: PropTypes.number.isRequired,
-  imageSrc: PropTypes.isRequired
-}
+  imageSrc: PropTypes.isRequired,
+};
